@@ -23,8 +23,8 @@ Ensure you have the following installed:
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/kavilparikh123/upfirstAssessment
+   cd upfirstAssessment
    ```
 2. Install dependencies:
    ```sh
@@ -68,6 +68,8 @@ curl "http://localhost:8080/api/oauth/authorize?response_type=code&client_id=upf
 Redirects to `redirect_uri` with an authorization code.
 
 ---
+
+![alt text](image.png)
 ### Token Endpoint
 **URL:** `POST /api/oauth/token`
 
@@ -116,6 +118,8 @@ curl -X POST "http://localhost:8080/api/oauth/token" \
   "refresh_token": "new_refresh_token"
 }
 ```
+
+![alt text](image-1.png)
 
 ## Project Structure
 ```
